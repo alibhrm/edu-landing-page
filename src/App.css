@@ -1,0 +1,16 @@
+/* @import url( "~slick-carousel/slick/slick.css"); 
+@import url("~slick-carousel/slick/slick-theme.css"); */
+.slick-prev::before,
+.slick-next::before{
+    color: black;
+font-size: 40px;
+}
+.slick-next::before{
+    margin-left: -35px;
+}
+.slick-prev{
+    z-index: 9999;
+}
+.arrow-icon{
+    fill: white;
+}
